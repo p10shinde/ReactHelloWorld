@@ -6,18 +6,24 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 
 function App() {
   return (
     <div className="App">
     {/* <Greet name="bruce" heroName="Batman"/>  */}
-    <Welcome name="bruce wayne" heroName="Batman" />
+    {/* <Welcome name="bruce wayne" heroName="Batman" /> */}
     {/* <p>This Is children</p> */}
     {/* </Welcome> */}
     {/* <Hello /> */}
     {/* <Message /> */}
-    <Counter />
+    {/* <Counter /> */}
+    {/* <FunctionClick /> */}
+    {/* <ClassClick /> */}
+    <EventBind />
     </div>
   );
 }
